@@ -1,7 +1,7 @@
-#include "memory.cpp"
+#include "TokenBucket.cpp"
 
 int main() {
-    memory::demo();
-
-    std::cout << sizeof(int) << std::endl;
+    TokenBucketMultiThread::demo();
+    TokenBucketNormal::demo();
+    RateLimiterQueue::demo();
 }
