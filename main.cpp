@@ -1,7 +1,5 @@
-#include "TokenBucket.cpp"
+#include "eventScheduler.cpp"
 
 int main() {
-    TokenBucketMultiThread::demo();
-    TokenBucketNormal::demo();
-    RateLimiterQueue::demo();
+    demo();
 }
